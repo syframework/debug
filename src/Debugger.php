@@ -192,6 +192,15 @@ class Debugger {
 	}
 
 	/**
+	 * Return loggers
+	 *
+	 * @return array
+	 */
+	public function getLoggers() {
+		return $this->loggers;
+	}
+
+	/**
 	 * Return logger
 	 *
 	 * @return Logger

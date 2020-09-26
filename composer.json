@@ -22,5 +22,8 @@
 		"psr-4": {
 			"Sy\\Debug\\": "src/"
 		}
+	},
+	"provide": {
+		"psr/log-implementation": "1.0"
 	}
 }
