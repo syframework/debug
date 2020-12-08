@@ -43,7 +43,6 @@ class Debugger {
 	}
 
 	private function __clone() {}
-	private function __wakeup() {}
 
 	/**
 	 * Singleton method
