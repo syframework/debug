@@ -216,7 +216,7 @@ class Debugger {
 	 */
 	public function log($message, array $info = array()) {
 		if (!$this->logActive()) return;
-		$message = is_array($message) ? print_r($message, true) : $message;
+		$message = print_r($message, true);
 		$level = isset($info['level']) ? $info['level'] : Log::INFO;
 		$this->logger->log($level, $message, $info);
 	}
