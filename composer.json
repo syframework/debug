@@ -4,6 +4,7 @@
 	"type": "library",
 	"require": {
 		"php": ">=5.6.0",
+		"sy/template": "^1",
 		"sy/stopwatch": "^1",
 		"psr/log": "^1.1"
 	},
@@ -21,5 +22,8 @@
 		"psr-4": {
 			"Sy\\Debug\\": "src/"
 		}
+	},
+	"provide": {
+		"psr/log-implementation": "1.0"
 	}
 }
